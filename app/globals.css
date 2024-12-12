@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --vh: 100vh;
+
+  /* font-family */
+  --spartans: "Spartans";
+  --mainlux: "Mainlux";
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@font-face {
+  font-family: "Spartans";
+  src: url("../assets/fonts/Lato\,League_Spartan/League_Spartan/static/LeagueSpartan-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Mainlux";
+  src: url("../assets/fonts/Lato\,League_Spartan/Mainlux-Light.otf");
+}
+
+html.lenis {
+  height: auto;
+  color: var(--neutral-200);
+}
+.debugger{
+  border: 1px solid red;
+  background-color: #808080;
+}
+
+p {
+  color: var(--neutral-200);
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+body {
+  color: #1E1E1E;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heroBackground {
+  background-image: url("../assets/image/hero.svg");
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,23 @@
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .animate-scroll {
+    animation: scroll 10s linear infinite;
+    /* Adjust the speed of scrolling here */
+  }
+  
+  /* Duplicate the items for continuous scrolling */
+  .flex_bas {
+    width: 100%; /* Adjust based on your item width */
+  }
+
+  .about_section {
+    display: flex;
+
+  }

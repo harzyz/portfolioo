@@ -1,0 +1,39 @@
+.sticky-nav {
+  li {
+    cursor: pointer;
+  }
+
+  .active-tag {
+    .tosin-tag {
+      background-color: #181818;
+
+      p {
+        color: #fff;
+      }
+    }
+
+    .about-tag {
+      background-color: #181818;
+
+      p {
+        color: #fff;
+      }
+    }
+
+    .project-tag, .tools-tag, .contact-tag {
+      background-color: #181818;
+
+      p {
+        color: #fff;
+      }
+    }
+  }
+
+
+}
+.fixedbar {
+  @media (max-width: 768px) {
+    display: none;
+    
+  }
+}

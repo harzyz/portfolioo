@@ -1,0 +1,20 @@
+.transition-all {
+    transition: all 0.7s ease;
+    opacity: 0;
+  }
+  
+  .transition-all-entered {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .transition-all-exit {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  button {
+    @media (max-width: 500px) {
+      font-size: 14px;
+    }
+  }
+  
