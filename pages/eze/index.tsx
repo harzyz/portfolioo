@@ -1,7 +1,5 @@
 import React from "react";
 import "./index.scss";
-import logo from "img/full-Logo.svg";
-import Image from "next/image";
 import Link from "next/link";
 
 const Niyo = () => {
@@ -31,7 +29,7 @@ const Niyo = () => {
               Ballotchain
             </p>
             <p className="font-mainlux leading-[2rem] font-[300] text-[1rem] pt-5 w-[100%] md:w-[75%]">
-              Ballotchain is a convenient, Safe, Secure, and Transparent Online / Mobile Voting Platform where users can vote from their home, leveraging blockchain Technology's distributed ledger System to ensure the integrity of the voting process by providing live election results, multiple vote verification systems, and tamper-proof records of votes
+              Ballotchain is a convenient, Safe, Secure, and Transparent Online / Mobile Voting Platform where users can vote from their home, leveraging blockchain Technology&apos;s distributed ledger System to ensure the integrity of the voting process by providing live election results, multiple vote verification systems, and tamper-proof records of votes
             </p>
           </div>
           <div className="flex-1">

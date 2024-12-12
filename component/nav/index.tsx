@@ -1,10 +1,6 @@
 "use client";
-
-import Image from "next/image";
 import gsap from "gsap";
 import React, { useEffect, useState, useRef } from "react";
-import logo from "img/white-full-logo.svg";
-import menu from "img/menu.svg";
 import Link from "next/link";
 
 const Nav = ({ project }: { project?: boolean }) => {

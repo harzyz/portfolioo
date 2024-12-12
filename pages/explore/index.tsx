@@ -1,7 +1,5 @@
 import React from "react";
 import "./index.scss";
-import Tosin from "@/assets/image/tosin.svg";
-import Image from "next/image";
 
 const Explore = () => {
   return (

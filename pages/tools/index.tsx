@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import FrontendTools from "./components/front";
-import BackendTools from "./components/back";
-import DevOpsTools from "./components/dev-ops";
 import VersionControlTools from "./components/version-control";
 import "./index.scss";
 

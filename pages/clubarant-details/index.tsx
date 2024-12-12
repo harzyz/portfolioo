@@ -1,7 +1,5 @@
 import React from "react";
 import "./index.scss";
-import logo from "img/full-Logo.svg";
-import Image from "next/image";
 import Link from "next/link";
 
 const Niyo = () => {

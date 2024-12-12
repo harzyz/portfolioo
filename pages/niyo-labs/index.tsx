@@ -1,7 +1,5 @@
 import React from "react";
 import "./index.scss";
-import logo from "img/full-Logo.svg";
-import Image from "next/image";
 import Link from "next/link";
 
 const Niyo = () => {
@@ -32,7 +30,7 @@ const Niyo = () => {
             </p>
             <p className="font-mainlux leading-[2rem] font-[300] text-[1rem] pt-5 w-[100%] md:w-[75%]">
               LearnlyApp is the easiest way for Africans to learn tech skills.
-              We're committed to empowering African organisations and
+              We&apos;re committed to empowering African organisations and
               individuals for success in our tech-driven world. Through Gamified
               learning, AI-driven learning assistants and our mentor-led
               programs. We provide essential guidance and support, helping

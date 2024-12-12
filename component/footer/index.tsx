@@ -1,6 +1,4 @@
 import React from "react";
-import logo from "img/full-Logo.svg";
-import Image from "next/image";
 
 const Explore = () => {
   return (

@@ -1,13 +1,9 @@
 import React from "react";
-import Project1 from "@/assets/image/niyolabs.svg";
-import Project2 from "@/assets/image/eze.svg";
-import Project3 from "@/assets/image/clubarant.svg";
 import Ballotchain from "@/assets/image/ballotchain.png";
 import Clubarant from "@/assets/image/clubarant.png";
 import LearnlyApp from "@/assets/image/learnlyapp.png";
 import Image from "next/image";
 import Link from "next/link";
-import { div } from "framer-motion/client";
 
 const Project = () => {
   const projects = [
