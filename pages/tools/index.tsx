@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import FrontendTools from "./components/front";
 import VersionControlTools from "./components/version-control";
 import "./index.scss";
 
 const Tools = () => {
-  const [selectedTab, setSelectedTab] = useState("Front-end");
-  const [isTransitioning, setIsTransitioning] = useState(false);
+  const [selectedTab, setSelectedTab] = React.useState("Front-end");
+  const [isTransitioning, setIsTransitioning] = React.useState(false);
 
   const handleTabClick = (tab: string) => {
     if (tab !== selectedTab) {
@@ -35,7 +35,7 @@ const Tools = () => {
 
   return (
     <section
-      className="min-h-screen business-section scroll-snap-start flex items-center justify-center px-5 md:px-8"
+      className="min-h-screen business-section py-10 scroll-snap-start flex items-center justify-center px-5 md:px-8"
       id="tools"
     >
       <div className="w-full">

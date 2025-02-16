@@ -1,7 +1,7 @@
 import React from "react";
-import Ballotchain from "@/assets/image/ballotchain.png";
-import Clubarant from "@/assets/image/clubarant.png";
-import LearnlyApp from "@/assets/image/learnlyapp.png";
+import Ballotchain from "@/assets/image/ballotchain.jpeg";
+import Clubarant from "@/assets/image/clubarant.jpeg";
+import LearnlyApp from "@/assets/image/learnlyapp.jpeg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -33,7 +33,7 @@ const Project = () => {
     >
       <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 w-full h-full">
         {projects.map((project) => (
-          <Link href={project.link} key={project.id}>
+          <Link data-aos='zoom-in' href={project.link} key={project.id}>
             <div className="h-[350px] relative rounded-lg">
               <Image
                 src={project.imgUrl}

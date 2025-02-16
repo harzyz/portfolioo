@@ -30,6 +30,7 @@ const Frontend = () => {
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 py-4">
         {colors.map((color, index) => (
           <div
+            data-aos="zoom-in"
             key={index}
             className=" flex justify-center rounded-lg min-h-[10rem] max-h-[15rem]  relative overflow-hidden bg-[#F2F2F2E3] px-4 md:px-0"
           >
