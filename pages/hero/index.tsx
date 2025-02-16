@@ -1,13 +1,10 @@
 "use client";
-
-import Nav from "@/component/nav";
 import React from "react";
 import StickyNavPage from "./sticky-nav";
 
 const Hero = () => {
   return (
     <section className="heroBackground business-section h-[100vh] relative" id="azeez">
-      <Nav />
 
       <div className="">
         <div className="flex justify-center flex-col items-center absolute bottom-[230px] left-0 right-0 mx-auto">

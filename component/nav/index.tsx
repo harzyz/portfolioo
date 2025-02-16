@@ -62,31 +62,36 @@ const Nav = ({ project }: { project?: boolean }) => {
   }, [menuToggle]);
 
   return (
-    <nav className="text-white bg-[#181818] md:hidden relative h-[80px]">
-      <div
-        ref={menuRef}
-        className={`bg-[#181818] md:hidden flex items-start justify-between px-5 z-[60] absolute top-[100%] w-full min-h-[calc(100vh-80px)] left-0 
+    <nav className="sticky top-0 z-[200]">
+      <nav className="text-white bg-[#181818] md:hidden top-0 relative h-[80px]">
+        <div
+          ref={menuRef}
+          className={`bg-[#181818] md:hidden flex items-start justify-between px-5 z-[20] absolute top-[80px] w-full min-h-[calc(100vh-80px)] left-0 
           ${menuToggle ? "opacity-1" : "opacity-0 hidden"}
         `}
-      >
-        <ul className="pt-14 flex-1 flex flex-col gap-10 text-white">
-          {navList.map((item, index) => (
-            <Link href={item.link} key={index} onClick={handleMenuToogle}>
-              <li>{item.text}</li>
-            </Link>
-          ))}
-        </ul>
-      </div>
-      <div className="flex items-center justify-between md:hidden px-4 w-full h-full top-0 sticky">
-        <div>
-          <h1 className="font-bold text-3xl">Az</h1>
+        >
+          <ul className="pt-14 flex-1 flex flex-col gap-10 text-white">
+            {navList.map((item, index) => (
+              <Link href={item.link} key={index} onClick={handleMenuToogle}>
+                <li>{item.text}</li>
+              </Link>
+            ))}
+          </ul>
         </div>
-        <div onClick={handleMenuToogle} className={`${menuToggle && "change"}`}>
-          <div className="toggler"></div>
-          <div className="toggler"></div>
-          <div className="toggler"></div>
+        <div className="flex items-center justify-between md:hidden px-4 w-full h-full">
+          <div>
+            <h1 className="font-bold text-3xl">Az</h1>
+          </div>
+          <div
+            onClick={handleMenuToogle}
+            className={`${menuToggle && "change"}`}
+          >
+            <div className="toggler"></div>
+            <div className="toggler"></div>
+            <div className="toggler"></div>
+          </div>
         </div>
-      </div>
+      </nav>
     </nav>
   );
 };
