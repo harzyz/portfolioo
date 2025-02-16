@@ -10,8 +10,7 @@ const Explore = () => {
       <div className="flex flex-col md:flex-row justify-between gap-5">
         <div className="flex flex-col md:flex-row gap-4 items-center">
           <div>
-            {/* <Image width={100} height={50} src={logo} alt="Logo" /> */}
-            <h1 className="font-bold text-3xl cursor-pointer">Azeez</h1>
+            <h1 className="font-bold text-3xl cursor-pointer">Az</h1>
           </div>
         </div>
         <div className="flex flex-col md:flex-row items-center gap-10">
