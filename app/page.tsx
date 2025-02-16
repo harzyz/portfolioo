@@ -4,7 +4,6 @@ import About from "@/pages/about";
 import Projects from "@/pages/projects";
 import Tools from "@/pages/tools";
 import Footer from "@/component/footer";
-import Tosin from "@/pages/explore";
 import React, { useEffect } from "react";
 import Hero from "@/pages/hero";
 import AOS from 'aos';
