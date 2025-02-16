@@ -1,6 +1,4 @@
 "use client";
-
-import Nav from "@/component/nav";
 import React from "react";
 import StickyNavPage from "./sticky-nav";
 
