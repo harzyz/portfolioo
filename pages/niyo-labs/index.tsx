@@ -13,7 +13,7 @@ const Niyo = () => {
         </ul>
       </Link> */}
       <Link href="/">
-        <h1 className="font-bold px-8 pt-10 text-3xl">Az</h1>
+        <h1 className="font-bold px-8 pt-10 text-3xl">HARZYZ</h1>
       </Link>
       <div className="w-full  md:pl-8 px-5 pt-20">
         <p className="font-spartans text-[1.2rem] md:text-[1.7rem] leading-[2.07rem] font-[400] text-[#000]">

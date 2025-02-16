@@ -45,7 +45,7 @@ const FixedBar = ({}) => {
         end: "bottom center",
         onEnter: () => {
           if (navElement) navElement.style.color = color;
-          console.log(navElement,"navElement")
+          console.log(navElement, "navElement");
         },
         onLeaveBack: () => {
           if (navElement) navElement.style.color = "white"; // reset or set to default color
@@ -112,13 +112,13 @@ const FixedBar = ({}) => {
     <header className={`${mainHeaderStlye} fixedbar opacity-1 mb-11`}>
       <nav
         className={`innerBar ${navStyle}`}
-        style={{ backgroundColor: "#ADACAC29", color: 'white' }}
+        style={{ backgroundColor: "#ADACAC29", color: "white" }}
       >
         <ul className="flex w-full justify-between items-center">
           <li className="pin-nav active-tag">
             <div className="tosin-tag inline-flex gap-1.5 md:gap-3 items-center p-1.5 md:p-2 rounded-md">
               <p className="text-sm md:text-[1.2rem] leading-[1.2rem]  font-mainlux font-[100] whitespace-nowrap">
-                AZ
+                HARZYZ
               </p>
             </div>
           </li>

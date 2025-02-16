@@ -11,7 +11,7 @@ const Hero = () => {
           <p data-aos='fade-down' className="font-mainlux font-[300] text-[1.25rem] leading-8 text-[#fff]">
             Frontend Engineer
           </p>
-          <p data-aos='zoom-in' className="font-spartans leading-[88.32px] text-[2rem] md:text-[6rem] font-[500] text-[#fff]">
+          <p data-aos='zoom-in' className="font-spartans leading-[88.32px] text-[2rem] md:text-[3rem] lg:text-[6rem] font-[500] text-[#fff]">
             Abdul-Azeez Ahmed
           </p>
         </div>
