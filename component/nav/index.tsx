@@ -62,11 +62,11 @@ const Nav = ({ project }: { project?: boolean }) => {
   }, [menuToggle]);
 
   return (
-    <nav className="text-white bg-[#181818] md:hidden h-[80px]">
+    <nav className="text-white bg-[#181818] md:hidden relative h-[80px]">
       <div
         ref={menuRef}
-        className={`bg-[#181818] md:hidden  flex items-start justify-between px-5 fixed top-0 w-full min-h-screen left-0 
-          ${menuToggle ? "opacity-1  pt-5" : "opacity-0 hidden"}
+        className={`bg-[#181818] md:hidden flex items-start justify-between px-5 z-[60] absolute top-[100%] w-full min-h-[calc(100vh-80px)] left-0 
+          ${menuToggle ? "opacity-1" : "opacity-0 hidden"}
         `}
       >
         <ul className="pt-14 flex-1 flex flex-col gap-10 text-white">
@@ -81,12 +81,7 @@ const Nav = ({ project }: { project?: boolean }) => {
         <div>
           <h1 className="font-bold text-3xl">Az</h1>
         </div>
-        <div
-          onClick={handleMenuToogle}
-          className={`toggle lg:hidden transition-all duration-500 ${
-            menuToggle ? "change" : ""
-          } `}
-        >
+        <div onClick={handleMenuToogle} className={`${menuToggle && "change"}`}>
           <div className="toggler"></div>
           <div className="toggler"></div>
           <div className="toggler"></div>

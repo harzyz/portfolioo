@@ -35,7 +35,7 @@ const Tools = () => {
 
   return (
     <section
-      className="min-h-screen business-section scroll-snap-start flex items-center justify-center px-5 md:px-8"
+      className="min-h-screen business-section py-10 scroll-snap-start flex items-center justify-center px-5 md:px-8"
       id="tools"
     >
       <div className="w-full">
