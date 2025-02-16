@@ -28,7 +28,6 @@ const Nav = ({ project }: { project?: boolean }) => {
   const [menuToggle, setMenuToggle] = useState(false);
 
   const handleMenuToogle = () => {
-    console.log(`menuToggle`, menuToggle);
     setMenuToggle(!menuToggle);
   };
 
@@ -63,16 +62,7 @@ const Nav = ({ project }: { project?: boolean }) => {
   }, [menuToggle]);
 
   return (
-    <nav className="relative z-50">
-      {" "}
-      {!project && (
-        <ul className="navList md:flex hidden justify-between items-center gap-5 text-white p-5 md:p-8">
-          <div>
-            {/* <Image width={100} height={40} src={logo} alt="Logo" /> */}
-            <h1 className="font-bold text-3xl">Azeez</h1>
-          </div>
-        </ul>
-      )}
+    <nav className="text-white bg-[#181818] md:hidden h-[80px]">
       <div
         ref={menuRef}
         className={`bg-[#181818] md:hidden  flex items-start justify-between px-5 fixed top-0 w-full min-h-screen left-0 
@@ -86,20 +76,20 @@ const Nav = ({ project }: { project?: boolean }) => {
             </Link>
           ))}
         </ul>
-        <div onClick={handleMenuToogle}>
-          {/* <Image width={30} height={40} src={menu} alt="Logo" /> */}
-          <h1 className="font-bold text-3xl">Azeez</h1>
-        </div>
       </div>
-      <div className="flex justify-between px-5 py-5 items-center md:hidden bg-[#181818] fixed w-full">
+      <div className="flex items-center justify-between md:hidden px-4 w-full h-full top-0 sticky">
         <div>
-          {/* <Image width={70} height={57} src={logo} alt="Logo" /> */}
-          <h1 className="font-bold text-3xl">Azeez</h1>
+          <h1 className="font-bold text-3xl">Az</h1>
         </div>
-        <div onClick={handleMenuToogle}>
-          {" "}
-          {/* <Image width={30} height={40} src={menu} alt="Logo" /> */}
-          <h1 className="font-bold text-3xl">Azeez</h1>
+        <div
+          onClick={handleMenuToogle}
+          className={`toggle lg:hidden transition-all duration-500 ${
+            menuToggle ? "change" : ""
+          } `}
+        >
+          <div className="toggler"></div>
+          <div className="toggler"></div>
+          <div className="toggler"></div>
         </div>
       </div>
     </nav>

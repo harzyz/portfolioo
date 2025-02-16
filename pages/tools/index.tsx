@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import FrontendTools from "./components/front";
 import VersionControlTools from "./components/version-control";
 import "./index.scss";
 
 const Tools = () => {
-  const [selectedTab, setSelectedTab] = useState("Front-end");
-  const [isTransitioning, setIsTransitioning] = useState(false);
+  const [selectedTab, setSelectedTab] = React.useState("Front-end");
+  const [isTransitioning, setIsTransitioning] = React.useState(false);
 
   const handleTabClick = (tab: string) => {
     if (tab !== selectedTab) {

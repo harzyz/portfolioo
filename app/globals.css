@@ -35,7 +35,7 @@ html.lenis {
 }
 .debugger{
   border: 1px solid red;
-  background-color: #808080;
+  /* background-color: #808080; */
 }
 
 p {
@@ -68,4 +68,22 @@ body {
   background-image: url("../assets/image/hero.svg");
   background-size: cover;
   background-position: center;
+}
+
+@layer components {
+  .toggler {
+    @apply w-[20px] bg-[white] h-[2px] mb-1 last:mb-0 transition ease-in-out duration-500;
+  }
+
+  .change .toggler:nth-child(1) {
+    transform: translate(1px, 6px) rotate(45deg);
+  }
+
+  .change .toggler:nth-child(2) {
+    @apply opacity-0;
+  }
+
+  .change .toggler:nth-child(3) {
+    transform: translate(0px, -6px) rotate(-45deg);
+  }
 }
