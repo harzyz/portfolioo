@@ -10,7 +10,7 @@ const Explore = () => {
       <div className="flex flex-col md:flex-row justify-between gap-5">
         <div className="flex flex-col md:flex-row gap-4 items-center">
           <div>
-            <h1 className="font-bold text-3xl cursor-pointer">Az</h1>
+            <h1 className="font-bold text-3xl cursor-pointer">HARZYZ</h1>
           </div>
         </div>
         <div className="flex flex-col md:flex-row items-center gap-10">
@@ -41,18 +41,6 @@ const Explore = () => {
               </p>
             </a>
           </div>
-          {/* <div>
-            <a
-              href="Yusuf_Oluwatosin_Abdulazeez_Resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              download="OluwatosinYusuf.pdf"
-            >
-              <p className="font-mainlux font-[300] text-[1rem] leading-[1.74rem]">
-                Download resume
-              </p>
-            </a>
-          </div> */}
         </div>
       </div>
     </section>

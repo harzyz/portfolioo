@@ -20,7 +20,7 @@ const About = () => {
         <div className="about_section flex-col md:flex-row mt-[2rem] md:mt-[5rem]">
           <div className="md:w-1/2 md:pl-8 px-5">
             {/* First child takes majority space */}
-            <p data-aos='fade-right' className="font-mainlux leading-[2rem] md:leading-[3rem] font-[300] text-[1.5rem] md:text-[2rem]">
+            <p data-aos='fade-right' className="font-mainlux leading-[2rem] lg:leading-[3rem] font-[300] text-[1.5rem] lg:text-[2rem]">
               I&apos;m a Software Engineer With a Strong Focus on Front-end
               Development Based in Lagos, Nigeria
             </p>

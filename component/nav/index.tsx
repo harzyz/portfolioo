@@ -80,7 +80,7 @@ const Nav = ({ project }: { project?: boolean }) => {
         </div>
         <div className="flex items-center justify-between md:hidden px-4 w-full h-full">
           <div>
-            <h1 className="font-bold text-3xl">Az</h1>
+            <h1 className="font-bold text-1xl">HARZYZ</h1>
           </div>
           <div
             onClick={handleMenuToogle}
