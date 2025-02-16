@@ -6,7 +6,6 @@ import React from "react";
 export default function Niyolabs() {
   return (
     <main>
-      {/* <Nav project /> */}
       <Clubarant />
       <Footer />
     </main>

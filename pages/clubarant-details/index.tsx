@@ -12,10 +12,10 @@ const Niyo = () => {
           </div>
           </ul>
           </Link> */}
-      <Link href='/'>
-        <h1 className="font-bold px-8 pt-10 text-3xl">Azeez</h1>
+      <Link href="/">
+        <h1 className="font-bold px-8 pt-10 text-3xl">Az</h1>
       </Link>
-      <div className="w-full  md:pl-8 px-5 pt-20">
+      <div className="w-full md:pl-8 px-5 pt-20">
         <p className="font-spartans text-[1.2rem] md:text-[1.7rem] leading-[2.07rem] font-[400] text-[#000]">
           Clubarant
         </p>
@@ -23,7 +23,7 @@ const Niyo = () => {
           Digital Menu System
         </p>
 
-        <div className="about_section flex-col md:flex-row mt-[2rem] md:mt-[5rem]">
+        <div className="flex-col md:flex-row mt-[2rem] md:mt-[5rem]">
           <div className="flex-1">
             <p className="font-mainlux leading-[2rem] md:leading-[3rem] font-[900] text-[1.5rem] md:text-[2rem]">
               Role
